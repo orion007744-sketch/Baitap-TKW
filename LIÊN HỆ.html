@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Liên hệ - K&P Online Store</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header id="topbar" class="topbar">
+      K&P INTERIOR DESIGN | ONLINE STORE - HOTLINE:
+      <a href="tel:+84374388844">+84 374 388 844</a>
+    </header>
+
+    <nav id="navbar" class="navbar">
+      <ul class="menu">
+        <li><a href="trang chu.html">TRANG CHỦ</a></li>
+        <li><a href="GIỚI THIỆU.html">GIỚI THIỆU</a></li>
+        <li><a href="LIÊN HỆ.html">LIÊN HỆ</a></li>
+        <li><a href="SẢN PHẨM.html">SẢN PHẨM</a></li>
+        <li><a href="dangnhap.html">ĐĂNG NHẬP / ĐĂNG KÝ</a></li>
+        <li>
+          <a href="cart.html" aria-label="Giỏ hàng">🛒 <span id="cart-count">0</span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+      <div id="heroBanner">
+        <img src="../image/2-col-impact-living.jpg" alt="Banner" />
+        <div id="heroOverlay"></div>
+        <div id="heroTitle">LIÊN HỆ</div>
+      </div>
+    </section>
+
+    <main id="content" class="page">
+      <div class="contact-wrapper">
+        <div class="contact-title">LIÊN HỆ</div>
+        <div class="contact-desc">Vui lòng điền thông tin bên dưới. Chúng tôi sẽ phản hồi bạn trong thời gian sớm nhất.</div>
+        <form id="contactForm">
+          <div class="field">
+            <label for="name">Họ và tên</label>
+            <input id="name" type="text" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="field">
+            <label for="message">Nội dung</label>
+            <textarea id="message" required></textarea>
+          </div>
+          <div id="contactError" class="contact-error"></div>
+          <button id="contactSubmit" type="submit">Gửi liên hệ</button>
+          <div id="contactSuccess" class="contact-success"></div>
+        </form>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div>K&P - © 2025. đưa tiền vào túi của tôi.</div>
+      <ul class="footer-links">
+        <li><a href="#">Chính sách bảo hành</a></li>
+        <li><a href="#">Chính sách đổi trả</a></li>
+        <li><a href="#">Điều khoản &amp; Bảo mật</a></li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

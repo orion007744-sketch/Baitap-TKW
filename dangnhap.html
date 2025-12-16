@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Đăng nhập / Đăng ký</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header id="topbar" class="topbar">
+      K&P INTERIOR DESIGN | ONLINE STORE - HOTLINE:
+      <a href="tel:+84374388844">+84 374 388 844</a>
+    </header>
+
+    <nav id="navbar" class="navbar">
+      <ul class="menu">
+        <li><a href="trang chu.html">TRANG CHỦ</a></li>
+        <li><a href="GIỚI THIỆU.html">GIỚI THIỆU</a></li>
+        <li><a href="LIÊN HỆ.html">LIÊN HỆ</a></li>
+        <li><a href="SẢN PHẨM.html">SẢN PHẨM</a></li>
+        <li><a href="dangnhap.html">ĐĂNG NHẬP / ĐĂNG KÝ</a></li>
+        <li>
+          <a href="cart.html" aria-label="Giỏ hàng">🛒 <span id="cart-count">0</span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="content" class="page">
+      <div id="authBox">
+        <div id="authBoxTitle">ĐĂNG NHẬP</div>
+        <form onsubmit="return false;">
+          <div class="row">
+            <label for="user">Tên đăng nhập</label>
+            <input type="text" id="user" />
+          </div>
+          <div class="row">
+            <label for="pass">Mật khẩu</label>
+            <input type="password" id="pass" />
+          </div>
+          <div id="authResultError"></div>
+          <button id="authSubmit" type="button">Đăng nhập</button>
+        </form>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div>K&P - © 2025. đưa tiền vào túi của tôi.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
